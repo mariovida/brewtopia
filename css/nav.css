@@ -23,7 +23,7 @@ nav .nav_logo {
   height: 60px;
 }
 nav .nav_logo:hover {
-  filter: saturate(0.2);
+  filter: grayscale();
 }
 nav a {
   display: block;
@@ -37,7 +37,7 @@ nav a {
   cursor: pointer;
 }
 nav a:hover {
-  filter: saturate(0.4);
+  filter: grayscale();
 }
 nav .nav_btns-left a {
   float: left;

@@ -8,3 +8,6 @@
 .partners_logos img {
   height: 42px;
 }
+.partners_logos img:hover {
+  filter: grayscale();
+}
