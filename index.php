@@ -110,8 +110,10 @@
             <div class="row">
                 <div class="col-6">
                     <p>At Brewtopia, we're not just passionate about serving great coffee; we're dedicated to creating inviting spaces where coffee lovers can come together to connect, unwind, and indulge in their love for coffee. Explore our café locations below and find the perfect spot to enjoy your favorite brew.</p>
+                    <p>Each of our café locations offers a unique ambiance and menu, featuring a variety of specialty coffee drinks, freshly baked pastries, and light bites to complement your coffee experience.</p>
+                    <p class="mb-0">We're committed to creating inclusive spaces that welcome everyone, from coffee aficionados to casual visitors looking for a cozy spot to enjoy a cup of joe.</p>
                 </div>
-                <div class="col-4 offset-2">
+                <div class="col-4 offset-2 d-flex align-items-center">
                     <div class="locations_numbers">
                         <div>
                             <span>11</span>
