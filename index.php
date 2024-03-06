@@ -46,11 +46,11 @@
                     <p>We believe that coffee is more than just a beverage - it's a catalyst for connection, conversation, and community. That's why we're dedicated to sharing our passion for coffee with enthusiasts worldwide. Whether you're a seasoned connoisseur or a curious newcomer, we invite you to join us on this journey as we celebrate the art of coffee together.</p>
                     <div class="about_stats d-flex justify-content-between">
                         <div class="d-flex flex-column">
-                            <span>12+</span>
+                            <span>14+</span>
                             Years of Experience
                         </div>
                         <div class="d-flex flex-column">
-                            <span>26</span>
+                            <span>36</span>
                             Locations Worldwide
                         </div>
                         <div class="d-flex flex-column">
@@ -111,12 +111,24 @@
                 <div class="col-6">
                     <p>At Brewtopia, we're not just passionate about serving great coffee; we're dedicated to creating inviting spaces where coffee lovers can come together to connect, unwind, and indulge in their love for coffee. Explore our café locations below and find the perfect spot to enjoy your favorite brew.</p>
                 </div>
-                <div class="col-5 offset-1">
+                <div class="col-4 offset-2">
                     <div class="locations_numbers">
-                        <div>North America</div>
-                        <div>Europe</div>
-                        <div>Asia</div>  
-                        <div>South America</div> 
+                        <div>
+                            <span>11</span>
+                            North America
+                        </div>
+                        <div>
+                            <span>15</span>
+                            Europe
+                        </div>
+                        <div>
+                            <span>6</span>
+                            Asia
+                        </div>  
+                        <div>
+                            <span>4</span>
+                            South America
+                        </div> 
                     </div>
                 </div>
             </div>

@@ -16,12 +16,14 @@
 }
 .locations_numbers div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 3px solid var(--vz-brown);
-  padding: 16px;
+  padding: 24px 16px;
   font-size: 16px;
   text-align: center;
+  cursor: default;
 }
 .locations_numbers div:nth-child(1) {
   border-left: 0;
@@ -39,4 +41,9 @@
 }
 .locations_numbers div:nth-child(4) {
   border: 0;
+}
+.locations_numbers span {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--vz-brown);
 }
