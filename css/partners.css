@@ -7,6 +7,7 @@
 }
 .partners_logos img {
   height: 42px;
+  transition: 0.2s;
 }
 .partners_logos img:hover {
   filter: grayscale();
