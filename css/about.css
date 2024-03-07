@@ -40,4 +40,5 @@
 .about_stats span {
   font-size: 38px;
   font-weight: 800;
+  color: var(--vz-brown);
 }
