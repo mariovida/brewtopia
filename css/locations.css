@@ -53,6 +53,7 @@
 }
 .locationsSwiper .swiper-slide {
   display: flex;
+  padding-bottom: 20px;
 }
 .locationsSwiper .swiper-slide .location_image,
 .locationsSwiper .swiper-slide .location_info {
@@ -60,8 +61,12 @@
 }
 .locationsSwiper .swiper-slide .location_image {
   height: 360px;
+  border: 3px solid var(--vz-brown);
 }
 .locationsSwiper .swiper-slide .location_image img {
+  position: relative;
+  top: 20px;
+  left: 14px;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -100,9 +105,13 @@
 }
 .locations .swiper-btn,
 .locations .swiper-btn img {
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
+  transition: 0.2s;
 }
 .locations .swiper-btn {
   margin-left: 24px;
+}
+.locations .swiper-btn img:hover {
+  filter: grayscale();
 }
