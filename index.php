@@ -146,7 +146,11 @@
                                     <h4 class="mb-40">Riverside Roastery</h4>
                                     <p>Situated along the tranquil banks of the river, our Riverside Roastery Café offers a serene escape from the urban hustle. With floor-to-ceiling windows providing panoramic views of the water, this café is the perfect spot to enjoy a leisurely cup of coffee while watching the world go by. Immerse yourself in the soothing ambiance and let the gentle sound of flowing water enhance your coffee experience.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>
@@ -159,7 +163,11 @@
                                     <h4 class="mb-40">Vintage Alley</h4>
                                     <p>Tucked away in a charming cobblestone alley lined with vintage shops and boutiques, our Vintage Alley Café exudes old-world charm and cozy ambiance. Step inside and be transported back in time as you sip on your favorite brew surrounded by retro décor and nostalgic memorabilia. Whether you're a history enthusiast or simply seeking a unique café experience, Vintage Alley Café offers a delightful escape from the ordinary.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>
@@ -172,7 +180,11 @@
                                     <h4 class="mb-40">Cityscape Lounge</h4>
                                     <p>Perched atop a skyscraper with panoramic views of the city skyline, our Cityscape Lounge Café offers a sophisticated urban retreat for coffee connoisseurs. Indulge in a luxurious coffee experience as you take in the breathtaking vistas of city lights and bustling streets below. With elegant décor, live music, and impeccable service, this café promises an unforgettable rendezvous amidst the cityscape.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>
@@ -185,7 +197,11 @@
                                     <h4 class="mb-40">Lakeside Retreat</h4>
                                     <p>Nestled on the shores of a picturesque lake, our Lakeside Retreat Café offers a tranquil oasis where nature and coffee lovers unite. Enjoy stunning waterfront views as you sip on your freshly brewed cup of joe, surrounded by lush greenery and the gentle rustle of leaves. Whether you're seeking solitude for reflection or camaraderie with fellow coffee enthusiasts, Lakeside Retreat Café provides the perfect setting to unwind and recharge.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>
@@ -198,7 +214,11 @@
                                     <h4 class="mb-40">Artisan Alley</h4>
                                     <p>Discover creativity and community at our Artisan Alley Café, nestled in a vibrant neighborhood known for its eclectic mix of galleries, studios, and boutiques. Stroll down cobblestone alleys adorned with colorful murals and street art until you reach our café, a hub of artistic expression and cultural exchange. Whether you're an art enthusiast or simply seeking a unique café experience, Artisan Alley Café offers a creative haven where inspiration flourishes over coffee.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>
@@ -211,7 +231,11 @@
                                     <h4 class="mb-40">Mountain Summit</h4>
                                     <p>Perched atop a majestic mountain peak, our Mountain Summit Café offers a breathtaking retreat for coffee enthusiasts seeking adventure and awe-inspiring views. Ascend winding mountain trails or take a scenic cable car ride to reach our café nestled amidst towering peaks and sweeping vistas. Whether you're a thrill-seeker or a nature lover, this café promises an unforgettable coffee experience at the summit.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>
@@ -224,7 +248,11 @@
                                     <h4 class="mb-40">Historic Square</h4>
                                     <p>Situated in the heart of a charming historic square, our café invites you to step back in time and savor the flavors of the past. Wander cobblestone streets lined with centuries-old architecture until you arrive at our café nestled amidst quaint storefronts and bustling markets. With its nostalgic charm and inviting ambiance, Historic Square Café offers a delightful blend of history, culture, and coffee.</p>
                                     <div class="location_info-btns d-flex">
-                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Directions
+                                            <?php
+                                                include 'assets/btn-arrow.svg';
+                                            ?>
+                                        </a>
                                         <a class="row-btn">Menu</a>
                                     </div>
                                 </div>

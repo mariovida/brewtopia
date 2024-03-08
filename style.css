@@ -104,9 +104,18 @@ h6 {
   cursor: pointer;
   transition: 0.2s;
 }
+.row-btn svg {
+  width: 17px;
+  height: 17px;
+  margin-left: 6px;
+  transition: 0.2s;
+}
 .row-btn:hover {
   color: var(--vz-background);
   background-color: var(--vz-brown);
+}
+.row-btn:hover svg path {
+  stroke: var(--vz-background);
 }
 
 /* HELPERS */
