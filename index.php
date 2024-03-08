@@ -164,6 +164,45 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop3.jpg" style="object-position:bottom"/>
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Cityscape Lounge</h4>
+                                    <p>Perched atop a skyscraper with panoramic views of the city skyline, our Cityscape Lounge Café offers a sophisticated urban retreat for coffee connoisseurs. Indulge in a luxurious coffee experience as you take in the breathtaking vistas of city lights and bustling streets below. With elegant décor, live music, and impeccable service, this café promises an unforgettable rendezvous amidst the cityscape.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop4.jpg" />
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Lakeside Retreat</h4>
+                                    <p>Nestled on the shores of a picturesque lake, our Lakeside Retreat Café offers a tranquil oasis where nature and coffee lovers unite. Enjoy stunning waterfront views as you sip on your freshly brewed cup of joe, surrounded by lush greenery and the gentle rustle of leaves. Whether you're seeking solitude for reflection or camaraderie with fellow coffee enthusiasts, Lakeside Retreat Café provides the perfect setting to unwind and recharge.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop2.jpg" />
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Artisan Alley</h4>
+                                    <p>Discover creativity and community at our Artisan Alley Café, nestled in a vibrant neighborhood known for its eclectic mix of galleries, studios, and boutiques. Stroll down cobblestone alleys adorned with colorful murals and street art until you reach our café, a hub of artistic expression and cultural exchange. Whether you're an art enthusiast or simply seeking a unique café experience, Artisan Alley Café offers a creative haven where inspiration flourishes over coffee.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
