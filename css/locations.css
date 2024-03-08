@@ -93,7 +93,7 @@
 .locationsSwiper .swiper-slide .location_info-btns {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 2px;
 }
 .locationsSwiper .swiper-slide .location_info-btns a {
   margin-left: 24px;

@@ -203,6 +203,32 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop6.jpg" />
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Mountain Summit</h4>
+                                    <p>Perched atop a majestic mountain peak, our Mountain Summit Café offers a breathtaking retreat for coffee enthusiasts seeking adventure and awe-inspiring views. Ascend winding mountain trails or take a scenic cable car ride to reach our café nestled amidst towering peaks and sweeping vistas. Whether you're a thrill-seeker or a nature lover, this café promises an unforgettable coffee experience at the summit.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop7.jpg" />
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Historic Square</h4>
+                                    <p>Situated in the heart of a charming historic square, our café invites you to step back in time and savor the flavors of the past. Wander cobblestone streets lined with centuries-old architecture until you arrive at our café nestled amidst quaint storefronts and bustling markets. With its nostalgic charm and inviting ambiance, Historic Square Café offers a delightful blend of history, culture, and coffee.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
