@@ -70,10 +70,10 @@
                     <div class="partners_logos">
                         <img src="./images/logo1.svg">
                         <img src="./images/logo2.svg">
-                        <img src="./images/logo3.svg">
                         <img src="./images/logo4.svg">
-                        <img src="./images/logo5.svg">
                         <img src="./images/logo6.svg">
+                        <img src="./images/logo5.svg">
+                        <img src="./images/logo3.svg">
                     </div>
                 </div>
             </div>
