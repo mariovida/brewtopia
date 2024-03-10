@@ -89,9 +89,8 @@
                     <p>But our journey doesn't end with the selection of beans; it's just the beginning. We believe that brewing coffee is an art form, and every step of the process contributes to the final flavor and aroma of your cup.</p>
                     <p>We're dedicated to sharing our passion for coffee brewing with you, whether you're a novice or a seasoned enthusiast. From the precise grind size to the optimal water temperature, we're here to guide you through every aspect of the brewing process, ensuring that you extract the best possible flavors from your beans.</p>
                     <p>Explore our curated collection of brewing methods, from classic French press to modern pour-over techniques. Each method offers a unique experience and allows you to tailor your brewing process to suit your preferences.</p>
-                    <p>Join us as we delve into the world of coffee brewing, where experimentation meets expertise, and every cup is a testament to the artistry and science behind the perfect brew. At Brewtopia, we're not just brewing coffee; we're brewing moments of joy and connection, one cup at a time.</p>
                 </div>
-                <div class="col-5 offset-1">
+                <div class="col-5 offset-1" style="position:relative">
                     <div class="team_image">
                         <img src="./images/brew.jpg" />
                     </div>

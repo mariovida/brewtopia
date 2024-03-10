@@ -20,9 +20,10 @@
 .about h3 {
   font-family: ff-title;
   color: var(--vz-brown);
+  margin-bottom: 40px;
 }
 .about p {
-  font-size: 18px;
+  font-size: 17px;
 }
 .about_stats {
   padding-top: 40px;
