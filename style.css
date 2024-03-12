@@ -10,6 +10,7 @@
 @import "css/about.css";
 @import "css/partners.css";
 @import "css/team.css";
+@import "css/locations.css";
 
 /* PAGES */
 
@@ -89,6 +90,24 @@ h6 {
   z-index: 2;
 }
 
+.row-btn {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 11px 18px;
+  color: var(--vz-brown);
+  border: 2px solid var(--vz-brown);
+  transition: 0.2s;
+}
+.row-btn:hover {
+  color: var(--vz-background);
+  background-color: var(--vz-brown);
+}
+
 /* HELPERS */
 .fw-100 {
   font-weight: 100 !important;
@@ -125,6 +144,9 @@ h6 {
 }
 .mb-30 {
   margin-bottom: 30px !important;
+}
+.mb-40 {
+  margin-bottom: 40px !important;
 }
 .mb-60 {
   margin-bottom: 60px !important;

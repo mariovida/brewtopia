@@ -1,0 +1,8 @@
+.locations {
+  padding: 60px 0;
+}
+.locations h3 {
+  font-family: ff-title;
+  color: var(--vz-brown);
+  margin-bottom: 0;
+}

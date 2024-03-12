@@ -98,6 +98,22 @@
             </div>
         </div>
     </section>
+
+    <section class="locations">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between align-items-center mb-40">
+                    <h3>Discover Our Cafés</h3>
+                    <a class="row-btn" href="">Locations</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p>At Brewtopia, we're not just passionate about serving great coffee; we're dedicated to creating inviting spaces where coffee lovers can come together to connect, unwind, and indulge in their love for coffee. Explore our café locations below and find the perfect spot to enjoy your favorite brew.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <?php
         define('footer', TRUE);
