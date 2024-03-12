@@ -104,7 +104,7 @@
             <div class="row">
                 <div class="col-12 d-flex justify-content-between align-items-center mb-40">
                     <h3>Discover Our Cafés</h3>
-                    <a class="row-btn" href="">Locations</a>
+                    <a class="row-btn">Locations</a>
                 </div>
             </div>
             <div class="row">

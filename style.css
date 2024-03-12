@@ -101,6 +101,7 @@ h6 {
   padding: 11px 18px;
   color: var(--vz-brown);
   border: 2px solid var(--vz-brown);
+  cursor: pointer;
   transition: 0.2s;
 }
 .row-btn:hover {
