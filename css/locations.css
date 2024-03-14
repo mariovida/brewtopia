@@ -6,3 +6,37 @@
   color: var(--vz-brown);
   margin-bottom: 0;
 }
+.locations p {
+  text-align: justify;
+  font-size: 17px;
+}
+.locations_numbers {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.locations_numbers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--vz-brown);
+  padding: 16px;
+  font-size: 16px;
+  text-align: center;
+}
+.locations_numbers div:nth-child(1) {
+  border-left: 0;
+  border-top: 0;
+}
+.locations_numbers div:nth-child(2) {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+.locations_numbers div:nth-child(3) {
+  border-left: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+.locations_numbers div:nth-child(4) {
+  border: 0;
+}

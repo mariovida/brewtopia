@@ -111,6 +111,14 @@
                 <div class="col-6">
                     <p>At Brewtopia, we're not just passionate about serving great coffee; we're dedicated to creating inviting spaces where coffee lovers can come together to connect, unwind, and indulge in their love for coffee. Explore our café locations below and find the perfect spot to enjoy your favorite brew.</p>
                 </div>
+                <div class="col-5 offset-1">
+                    <div class="locations_numbers">
+                        <div>North America</div>
+                        <div>Europe</div>
+                        <div>Asia</div>  
+                        <div>South America</div> 
+                    </div>
+                </div>
             </div>
         </div>
     </section>
