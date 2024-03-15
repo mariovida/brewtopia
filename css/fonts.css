@@ -1,0 +1,58 @@
+@font-face {
+  font-family: ff-title;
+  src: url(../assets/fonts/Summer.ttf);
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(../assets/fonts/RedHatDisplay-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ff-signature;
+  src: url(../assets/fonts/Autography.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ff-secondary;
+  src: url(../assets/fonts/SawarabiMincho-Regular.ttf);
+  font-style: normal;
+}

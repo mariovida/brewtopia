@@ -1,0 +1,118 @@
+.hero {
+  height: auto;
+  margin-top: 100px;
+  padding-bottom: 250px;
+}
+.hero .wrapper,
+.hero .row {
+  height: 100%;
+  --bs-gutter-x: 0 !important;
+}
+.hero .wrapper {
+  animation-name: wrapperShrink;
+  animation-duration: 1200ms;
+  animation-fill-mode: forwards;
+}
+@keyframes wrapperShrink {
+  0% {
+    max-width: 1280px;
+  }
+  100% {
+    bottom: 1440px;
+  }
+}
+.hero .row {
+  border: 4px solid var(--vz-brown);
+}
+.hero .col-12 {
+  padding: 60px 30px;
+}
+/* COFFEE BEANS */
+.hero-beans_left,
+.hero-beans_right {
+  position: absolute;
+  left: -30px;
+  bottom: -160px;
+  max-width: 300px;
+  animation-name: displayBeansUp;
+  animation-duration: 3000ms;
+  animation-fill-mode: both;
+  transition: 3200ms;
+}
+.hero-beans_right {
+  position: absolute;
+  left: unset;
+  right: -100px;
+  bottom: unset;
+  top: -50px;
+  max-width: 400px;
+  animation-name: displayBeansDown;
+  animation-duration: 2100ms;
+  animation-fill-mode: both;
+  transition: 1500ms;
+}
+.hero-beans_left img,
+.hero-beans_right img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+@keyframes displayBeansUp {
+  0% {
+    bottom: -220px;
+  }
+  100% {
+    opacity: 1;
+    bottom: -160px;
+  }
+}
+@keyframes displayBeansDown {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: -50px;
+  }
+}
+/* COFFEE BEANS ANIMATION ON SCROLL */
+.hero-beans_left.scrolled {
+  transform: translateY(-80px);
+}
+.hero-beans_right.scrolled {
+  transform: translateY(-30px);
+}
+.hero h1 {
+  font-family: ff-title;
+  line-height: 74px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--vz-brown);
+}
+.hero h2 {
+  line-height: 34px;
+  margin: 0;
+}
+/* COFFEE CUP */
+/*.hero_image {
+  max-width: 500px;
+  overflow: hidden;
+}
+.hero_image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: rotate(100deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(245deg);
+  }
+}*/
