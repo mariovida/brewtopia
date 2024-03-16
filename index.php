@@ -91,7 +91,7 @@
                     <p>Explore our curated collection of brewing methods, from classic French press to modern pour-over techniques. Each method offers a unique experience and allows you to tailor your brewing process to suit your preferences.</p>
                 </div>
                 <div class="col-5 offset-1" style="position:relative">
-                    <div class="team_image">
+                    <div class="team_image" data-aos="fade-up" data-aos-duration="1200">
                         <img src="./images/brew.jpg" />
                     </div>
                 </div>
@@ -134,6 +134,29 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-60">
+                <div class="col-12">
+                    <div class="swiper locationsSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop1.jpg" />
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Downtown Roastery</h4>
+                                    <p>Located in the heart of the city, our downtown roastery offers a cozy atmosphere where you can watch our master roasters at work while sipping on your freshly brewed cup of coffee.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev-unique">
+                            <img src="./assets/arrow-left.svg" />
+                        </div>
+                        <div class="swiper-button-next-unique">
+                            <img src="./assets/arrow-right.svg" />
+                        </div>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -141,8 +164,18 @@
         define('footer', TRUE);
         include 'inc/footer.php';
     ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
+        var swiper = new Swiper(".locationsSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.swiper-button-next-unique',
+                prevEl: '.swiper-button-prev-unique'
+            },
+        });
     </script>
 </body>
 </html>

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var navigation = document.querySelector("#navigation");
 
   window.addEventListener("scroll", function () {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 10) {
       beansLeft.classList.add("scrolled");
       beansRight.classList.add("scrolled");
       navigation.classList.add("scrolled");

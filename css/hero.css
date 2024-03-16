@@ -9,8 +9,10 @@
   --bs-gutter-x: 0 !important;
 }
 .hero .wrapper {
+  max-width: 1280px;
+  opacity: 0;
   animation-name: wrapperShrink;
-  animation-duration: 1200ms;
+  animation-duration: 1600ms;
   animation-fill-mode: forwards;
 }
 @keyframes wrapperShrink {
@@ -18,7 +20,8 @@
     max-width: 1280px;
   }
   100% {
-    bottom: 1440px;
+    max-width: 1440px;
+    opacity: 1;
   }
 }
 .hero .row {

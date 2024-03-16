@@ -1,5 +1,5 @@
 .locations {
-  padding: 60px 0;
+  padding: 80px 0 60px 0;
 }
 .locations h3 {
   font-family: ff-title;
@@ -46,4 +46,29 @@
   font-size: 38px;
   font-weight: 800;
   color: var(--vz-brown);
+}
+/* SWIPER */
+.locationsSwiper {
+  margin-top: 40px;
+}
+.locationsSwiper .swiper-slide {
+  display: flex;
+}
+.locationsSwiper .swiper-slide .location_image,
+.locationsSwiper .swiper-slide .location_info {
+  width: 45%;
+}
+.locationsSwiper .swiper-slide .location_image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.locationsSwiper .swiper-slide .location_info {
+  margin-left: 10%;
+}
+.locationsSwiper .swiper-slide .location_info h4 {
+  color: var(--vz-brown);
+}
+.locationsSwiper .swiper-slide .location_info p {
+  font-size: 17px;
 }
