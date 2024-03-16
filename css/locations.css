@@ -65,14 +65,16 @@
   opacity: 0;
 }
 .locationsSwiper .swiper-slide-active .location_image img {
-  animation: fadeIn 0.8s ease both;
+  animation: fadeIn 600ms ease both;
 }
 @keyframes fadeIn {
   from {
     opacity: 0;
+    height: 0;
   }
   to {
     opacity: 1;
+    height: 100%;
   }
 }
 .locationsSwiper .swiper-slide .location_info {
