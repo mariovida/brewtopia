@@ -96,7 +96,7 @@ h6 {
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   text-decoration: none;
   padding: 11px 18px;
   color: var(--vz-brown);

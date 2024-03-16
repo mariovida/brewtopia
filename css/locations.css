@@ -62,8 +62,21 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  opacity: 0;
+}
+.locationsSwiper .swiper-slide-active .location_image img {
+  animation: fadeIn 0.8s ease both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .locationsSwiper .swiper-slide .location_info {
+  position: relative;
   margin-left: 10%;
 }
 .locationsSwiper .swiper-slide .location_info h4 {
@@ -71,4 +84,12 @@
 }
 .locationsSwiper .swiper-slide .location_info p {
   font-size: 17px;
+}
+.locationsSwiper .swiper-slide .location_info-btns {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.locationsSwiper .swiper-slide .location_info-btns a {
+  margin-left: 24px;
 }

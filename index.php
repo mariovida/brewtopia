@@ -143,8 +143,25 @@
                                     <img src="./images/shop1.jpg" />
                                 </div>
                                 <div class="location_info">
-                                    <h4 class="mb-40">Downtown Roastery</h4>
-                                    <p>Located in the heart of the city, our downtown roastery offers a cozy atmosphere where you can watch our master roasters at work while sipping on your freshly brewed cup of coffee.</p>
+                                    <h4 class="mb-40">Riverside Roastery</h4>
+                                    <p>Situated along the tranquil banks of the river, our Riverside Roastery Café offers a serene escape from the urban hustle. With floor-to-ceiling windows providing panoramic views of the water, this café is the perfect spot to enjoy a leisurely cup of coffee while watching the world go by. Immerse yourself in the soothing ambiance and let the gentle sound of flowing water enhance your coffee experience.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="location_image">
+                                    <img src="./images/shop5.jpg" />
+                                </div>
+                                <div class="location_info">
+                                    <h4 class="mb-40">Vintage Alley</h4>
+                                    <p>Tucked away in a charming cobblestone alley lined with vintage shops and boutiques, our Vintage Alley Café exudes old-world charm and cozy ambiance. Step inside and be transported back in time as you sip on your favorite brew surrounded by retro décor and nostalgic memorabilia. Whether you're a history enthusiast or simply seeking a unique café experience, Vintage Alley Café offers a delightful escape from the ordinary.</p>
+                                    <div class="location_info-btns d-flex">
+                                        <a class="row-btn">Directions</a>
+                                        <a class="row-btn">Menu</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +187,8 @@
         AOS.init();
         var swiper = new Swiper(".locationsSwiper", {
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 60,
+            loop: true,
             navigation: {
                 nextEl: '.swiper-button-next-unique',
                 prevEl: '.swiper-button-prev-unique'
