@@ -166,12 +166,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-prev-unique">
-                            <img src="./assets/arrow-left.svg" />
-                        </div>
-                        <div class="swiper-button-next-unique">
-                            <img src="./assets/arrow-right.svg" />
-                        </div>
+                </div>
+            </div>
+            <div class="row mt-40">
+                <div class="col-12 d-flex justify-content-end">
+                    <div class="swiper-btn swiper-button-prev-unique">
+                        <img src="./assets/arrow-left.svg" />
+                    </div>
+                    <div class="swiper-btn swiper-button-next-unique">
+                        <img src="./assets/arrow-right.svg" />
+                    </div>
                 </div>
             </div>
         </div>

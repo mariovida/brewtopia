@@ -58,6 +58,9 @@
 .locationsSwiper .swiper-slide .location_info {
   width: 45%;
 }
+.locationsSwiper .swiper-slide .location_image {
+  height: 360px;
+}
 .locationsSwiper .swiper-slide .location_image img {
   object-fit: cover;
   width: 100%;
@@ -93,5 +96,13 @@
   right: 0;
 }
 .locationsSwiper .swiper-slide .location_info-btns a {
+  margin-left: 24px;
+}
+.locations .swiper-btn,
+.locations .swiper-btn img {
+  width: 20px;
+  height: 20px;
+}
+.locations .swiper-btn {
   margin-left: 24px;
 }
